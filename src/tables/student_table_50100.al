@@ -94,11 +94,17 @@ table 50100 Student
     }
 
     var
-        myInt: Integer;
+        SalesSetup: Record "Sales & Receivables Setup";
+        NoSeriesMgt: Codeunit "No. Series";
 
     trigger OnInsert()
     begin
-
+        if SalesSetup.Get() then begin
+            SalesSetup.TestField("Student Table");
+            if "Registration No" = '' then begin
+                "Registration No" := NoSeriesMgt.GetNextNo(SalesSetup."Student Table", 0D, false);
+            end;
+        end;
     end;
 
     trigger OnModify()
