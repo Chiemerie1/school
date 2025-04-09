@@ -1,6 +1,6 @@
 {
   "id": "10244113-8055-41fd-a3c7-d308ae05a25f",
-  "name": "school",
+  "name": "BCschool",
   "publisher": "Default Publisher",
   "version": "1.0.0.0",
   "brief": "",
@@ -17,7 +17,7 @@
   "idRanges": [
     {
       "from": 50100,
-      "to": 60000
+      "to": 50149
     }
   ],
   "resourceExposurePolicy": {
