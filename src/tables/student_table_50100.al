@@ -73,6 +73,12 @@ table 50100 Student
             DataClassification = ToBeClassified;
 
         }
+
+        field(50115; "Date of Enter"; Date)
+        {
+            DataClassification = ToBeClassified;
+
+        }
         field(50114; "Session/Term"; Enum Session)
         {
             DataClassification = ToBeClassified;
