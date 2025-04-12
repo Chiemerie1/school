@@ -78,6 +78,18 @@ table 50100 Student
             DataClassification = ToBeClassified;
 
         }
+        field(50116; Picture; Code[20])
+        {
+            DataClassification = ToBeClassified;
+
+        }
+        field(50117; Good; Code[20])
+        {
+            DataClassification = ToBeClassified;
+
+        }
+
+
         field(50114; "Session/Term"; Enum Session)
         {
             DataClassification = ToBeClassified;
