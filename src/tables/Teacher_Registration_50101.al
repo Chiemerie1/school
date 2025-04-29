@@ -100,7 +100,7 @@ table 50101 Teacher
         if SalesSetup.Get() then begin
             SalesSetup.TestField("Teacher No.");
             if "Teacher Registration No" = '' then begin
-                "Teacher Registration No" := NoSeriesMgt.GetNextNo(SalesSetup."Student Table", 0D, false);
+                "Teacher Registration No" := NoSeriesMgt.GetNextNo(SalesSetup."Teacher No.", 0D, false);
             end;
         end;
     end;
