@@ -1,6 +1,6 @@
-Table 52100 Teachers
+Table 62100 Teachers
 {
-    Caption = 'Teacher';
+    Caption = 'Teachers';
     DataClassification = ToBeClassified;
 
     fields
