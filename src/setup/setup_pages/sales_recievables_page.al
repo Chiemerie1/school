@@ -34,6 +34,12 @@ pageextension 70202 SalesRecievablePageExt extends "Sales & Receivables Setup"
 
             field("Yoruba"; Rec."Yoruba")
             {
+               ApplicationArea = All
+            }
+
+            field("Teacher Table"; Rec."Teacher Table")
+
+            {
                 ApplicationArea = All;
             }
         }

@@ -40,7 +40,14 @@ tableextension 70201 SalesRecieveableExt extends "Sales & Receivables Setup"
             TableRelation = "No. Series";
             Caption = 'Yoruba';
         }
+        field(62000; "Teacher Table"; Code[200])
+        {
+            DataClassification = ToBeClassified;
+            TableRelation = "No. Series";
+            Caption = 'Teacher No.';
+        }
     }
+
 
     keys
     {
