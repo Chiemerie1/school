@@ -3,7 +3,7 @@
 
 
 
-page 50155 Social_Studies_list
+page 70155 Social_Studies_list
 {
     PageType = List;
     ApplicationArea = All;
@@ -38,6 +38,10 @@ page 50155 Social_Studies_list
                     ApplicationArea = All;
                 }
                 field("Class"; Rec."Class")
+                {
+                    ApplicationArea = All;
+                }
+                field("SN"; Rec."SN")
                 {
                     ApplicationArea = All;
                 }

@@ -1,6 +1,6 @@
 
 
-page 50152 Basic_Science_List
+page 70152 Basic_Science_List
 {
     PageType = List;
     ApplicationArea = All;
@@ -39,6 +39,10 @@ page 50152 Basic_Science_List
                     ApplicationArea = All;
                 }
                 field("Class"; Rec."Class")
+                {
+                    ApplicationArea = All;
+                }
+                field("SN"; Rec."SN")
                 {
                     ApplicationArea = All;
                 }

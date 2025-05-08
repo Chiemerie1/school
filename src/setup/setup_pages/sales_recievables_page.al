@@ -1,6 +1,6 @@
 
 
-pageextension 50102 SalesRecievablePageExt extends "Sales & Receivables Setup"
+pageextension 70202 SalesRecievablePageExt extends "Sales & Receivables Setup"
 {
     layout
     {
@@ -11,7 +11,33 @@ pageextension 50102 SalesRecievablePageExt extends "Sales & Receivables Setup"
             {
                 ApplicationArea = All;
             }
+
+            field("Basic Science"; Rec."Basic Science")
+            {
+                ApplicationArea = All;
+            }
+
+            field("Basic Technology"; Rec."Basic Technology")
+            {
+                ApplicationArea = All;
+            }
+
+            field("Civic Education"; Rec."Civic Education")
+            {
+                ApplicationArea = All;
+            }
+
+            field("Social Studies"; Rec."Social Studies")
+            {
+                ApplicationArea = All;
+            }
+
+            field("Yoruba"; Rec."Yoruba")
+            {
+                ApplicationArea = All;
+            }
         }
+
     }
 
     actions

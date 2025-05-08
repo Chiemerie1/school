@@ -3,7 +3,7 @@
 
 
 
-page 50154 Civic_Education_list
+page 70154 Civic_Education_list
 {
     PageType = List;
     ApplicationArea = All;
@@ -38,6 +38,10 @@ page 50154 Civic_Education_list
                     ApplicationArea = All;
                 }
                 field("Class"; Rec."Class")
+                {
+                    ApplicationArea = All;
+                }
+                field("SN"; Rec."SN")
                 {
                     ApplicationArea = All;
                 }
