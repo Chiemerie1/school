@@ -1,6 +1,6 @@
 
 
-enum 50100 Sex
+enum 70100 Sex
 {
     Extensible = false;
 
@@ -15,7 +15,7 @@ enum 50100 Sex
 
 }
 
-enum 50101 Genotype
+enum 70101 Genotype
 {
     Extensible = true;
 
@@ -33,7 +33,7 @@ enum 50101 Genotype
     }
 }
 
-enum 50102 BloodGroup
+enum 70102 BloodGroup
 {
     Extensible = true;
 
@@ -56,7 +56,7 @@ enum 50102 BloodGroup
 
 }
 
-enum 50103 Class
+enum 70103 Class
 {
     Extensible = true;
 
@@ -80,7 +80,7 @@ enum 50103 Class
     }
 }
 
-enum 50104 Session
+enum 70104 Session
 {
     Extensible = true;
 
