@@ -1,4 +1,9 @@
 .alpackages
 .snapshots
 .vscode
-
+/alpackages
+/snapshots
+/vscode
+alpackages
+snapshots
+vscode

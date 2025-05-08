@@ -17,11 +17,7 @@
   "idRanges": [
     {
       "from": 50100,
-<<<<<<< HEAD
       "to": 90000
-=======
-      "to": 50199
->>>>>>> 61117f9e647dbcfdde4e9bcf1bc66a1afbdc498c
     }
   ],
   "resourceExposurePolicy": {
