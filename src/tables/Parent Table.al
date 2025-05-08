@@ -9,7 +9,7 @@ table 80000 Parent
             DataClassification = ToBeClassified;
 
         }
-        field(80001; Fullname; Text[100])
+        field(80001; Fullname; Text[150])
         {
             DataClassification = ToBeClassified;
 
