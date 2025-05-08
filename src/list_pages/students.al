@@ -1,6 +1,6 @@
 
 
-page 50102 Students
+page 70102 Students
 {
     PageType = List;
     ApplicationArea = All;

@@ -4,7 +4,7 @@
 
 
 
-page 50156 Yoruba_list
+page 70156 Yoruba_list
 {
     PageType = List;
     ApplicationArea = All;
@@ -39,6 +39,10 @@ page 50156 Yoruba_list
                     ApplicationArea = All;
                 }
                 field("Class"; Rec."Class")
+                {
+                    ApplicationArea = All;
+                }
+                field("SN"; Rec."SN")
                 {
                     ApplicationArea = All;
                 }

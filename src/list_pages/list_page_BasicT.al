@@ -2,7 +2,7 @@
 
 
 
-page 50153 Basic_Technology_list
+page 70153 Basic_Technology_list
 {
     PageType = List;
     ApplicationArea = All;
@@ -37,6 +37,10 @@ page 50153 Basic_Technology_list
                     ApplicationArea = All;
                 }
                 field("Class"; Rec."Class")
+                {
+                    ApplicationArea = All;
+                }
+                field("SN"; Rec."SN")
                 {
                     ApplicationArea = All;
                 }
