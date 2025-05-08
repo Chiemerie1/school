@@ -11,6 +11,10 @@ pageextension 50102 SalesRecievablePageExt extends "Sales & Receivables Setup"
             {
                 ApplicationArea = All;
             }
+            field("Teacher Table"; Rec."Teacher Table")
+            {
+                ApplicationArea = All;
+            }
         }
     }
 
