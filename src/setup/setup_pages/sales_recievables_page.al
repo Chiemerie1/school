@@ -16,6 +16,11 @@ pageextension 50102 SalesRecievablePageExt extends "Sales & Receivables Setup"
             {
                 ApplicationArea = All;
             }
+
+            field("Parent No."; Rec."Parent No.")
+            {
+                ApplicationArea = All;
+            }
         }
     }
 
