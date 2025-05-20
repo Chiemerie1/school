@@ -94,3 +94,20 @@ enum 70104 Session
     {
     }
 }
+enum 80002 Fees
+{
+    Extensible = true;
+
+    value(0; "Tuition Fee")
+    {
+    }
+    value(1; "Registration")
+    {
+    }
+    value(2; "Book & Supplies")
+    {
+    }
+    value(3; "Uniform Fee")
+    {
+    }
+}
