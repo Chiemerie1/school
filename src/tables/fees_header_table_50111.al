@@ -20,7 +20,7 @@ table 50111 "Fees Header"
             var
                 student: Record Student;
             begin
-                if student.Get(No) then begin
+                if student.Get("Student No") then begin
                     "Student Name" := student.Name;
                     "Student Class" := student.Class;
                 end;
@@ -35,8 +35,8 @@ table 50111 "Fees Header"
         }
         field(5; "Total"; Decimal)
         {
-            DataClassification = ToBeClassified;
-
+            FieldClass = FlowField;
+            CalcFormula = Sum("Fees Line".Total where("Document No" = field(No)));
         }
     }
 
