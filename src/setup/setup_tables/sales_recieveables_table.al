@@ -1,58 +1,66 @@
 
 
-tableextension 70201 SalesRecieveableExt extends "Sales & Receivables Setup"
+tableextension 50101 SalesRecievableExt extends "Sales & Receivables Setup"
 {
     fields
     {
-        field(70200; "Student Table"; Code[200])
+        field(50000; "Student Table"; Code[200])
         {
             DataClassification = ToBeClassified;
             TableRelation = "No. Series";
             Caption = 'Student No.';
         }
 
-        field(50001; "Teacher No."; Code[200])
-        {
-
-        }
-        field(70203; "Basic Science"; Code[20])
-        {
-            DataClassification = ToBeClassified;
-            TableRelation = "No. Series";
-            Caption = 'Basic Science';
-        }
-        field(70204; "Basic Technology"; Code[20])
-        {
-            DataClassification = ToBeClassified;
-            TableRelation = "No. Series";
-            Caption = 'Basic Technology';
-        }
-        field(70205; "Civic Education"; Code[20])
-        {
-            DataClassification = ToBeClassified;
-            TableRelation = "No. Series";
-            Caption = 'Civic Education';
-        }
-        field(70206; "Social Studies"; Code[20])
-        {
-            DataClassification = ToBeClassified;
-            TableRelation = "No. Series";
-            Caption = 'Social Studies';
-        }
-        field(70207; "Yoruba"; Code[20])
-        {
-            DataClassification = ToBeClassified;
-            TableRelation = "No. Series";
-            Caption = 'Yoruba';
-        }
-        field(62000; "Teacher Table"; Code[200])
+        field(80001; "Teacher No."; Code[200])
         {
             DataClassification = ToBeClassified;
             TableRelation = "No. Series";
             Caption = 'Teacher No.';
         }
-    }
+        field(80002; "Parent No."; Code[200])
+        {
+            DataClassification = ToBeClassified;
+            TableRelation = "No. Series";
+            Caption = 'Parent No.';
+        }
+        field(80003; "Basic Science"; Code[200])
+        {
+            DataClassification = ToBeClassified;
+            TableRelation = "No. Series";
+            Caption = 'Basic Science';
+        }
+        field(80004; "Basic Technology"; Code[200])
+        {
+            DataClassification = ToBeClassified;
+            TableRelation = "No. Series";
+            Caption = 'Basic Technology';
+        }
+        field(80005; "Civic Education"; Code[200])
+        {
+            DataClassification = ToBeClassified;
+            TableRelation = "No. Series";
+            Caption = 'Civic Education';
+        }
+        field(80006; "Yoruba"; Code[200])
+        {
+            DataClassification = ToBeClassified;
+            TableRelation = "No. Series";
+            Caption = 'Yoruba';
+        }
+        field(80007; "Social Studies"; Code[200])
+        {
+            DataClassification = ToBeClassified;
+            TableRelation = "No. Series";
+            Caption = 'Social Studies';
+        }
+        field(80008; "Teacher Table"; Code[200])
+        {
+            DataClassification = ToBeClassified;
+            TableRelation = "No. Series";
+            Caption = 'Teacher Table';
+        }
 
+    }
 
     keys
     {

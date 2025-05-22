@@ -1,9 +1,12 @@
 .alpackages
 .snapshots
 .vscode
-/alpackages
-/snapshots
-/vscode
-alpackages
+./.alpackages
+./snapshots
+./.vscode
+/.alpackages
 snapshots
-vscode
+/.vscode
+app.json
+.app.json
+
