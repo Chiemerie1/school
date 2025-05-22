@@ -87,9 +87,27 @@ table 50112 "Fees Line"
 
     end;
 
+
+    local procedure NextLineNo(DocNo: Code[20]): Integer
+    var
+        feeLine: Record "Fees Line";
+    begin
+        feeLine.SetRange("Document No", DocNo);
+        if feeLine.FindLast() then
+            exit(feeLine."Line No" + 1000)
+        else
+            exit(1000);
+    end;
+
+
     trigger OnInsert()
+    var
+        feesHeader: Record "Fees Header";
     begin
         Subtotal();
+        if Rec."Line No" = 0 then
+            Rec."Line No" := NextLineNo(Rec."Document No");
+
     end;
 
     trigger OnModify()
