@@ -24,7 +24,7 @@ page 50102 Students
                 }
                 field(Sex; Rec.Sex)
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = All;                    
                 }
                 field(Address; Rec.Address)
                 {
