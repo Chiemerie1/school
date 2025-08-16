@@ -76,6 +76,10 @@ table 50101 Teacher
             DataClassification = ToBeClassified;
 
         }
+        field(50115; "Blocked"; Boolean)
+        {
+            DataClassification = ToBeClassified;
+        }
     }
 
     keys

@@ -1,8 +1,13 @@
 {
   "id": "10244113-8055-41fd-a3c7-d308ae05a25f",
   "name": "school",
+<<<<<<< HEAD
   "publisher": "SCode",
   "version": "1.0.0.9",
+=======
+  "publisher": "Default Publisher",
+  "version": "1.0.0.3",
+>>>>>>> Study
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -17,7 +22,11 @@
   "idRanges": [
     {
       "from": 50100,
+<<<<<<< HEAD
       "to": 90000
+=======
+      "to": 89999
+>>>>>>> Study
     }
   ],
   "resourceExposurePolicy": {

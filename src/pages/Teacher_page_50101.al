@@ -63,6 +63,10 @@ page 50101 Teacher
                 {
                     ApplicationArea = All;
                 }
+                field(Blocked; Rec.Blocked)
+                {
+                    ApplicationArea = all;
+                }
             }
         }
     }
