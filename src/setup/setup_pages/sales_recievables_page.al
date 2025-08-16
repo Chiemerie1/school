@@ -17,6 +17,9 @@ pageextension 70202 SalesRecievablePageExt extends "Sales & Receivables Setup"
                 ApplicationArea = All;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
             field("Basic Science"; Rec."Basic Science")
             {
                 ApplicationArea = All;
@@ -43,11 +46,19 @@ pageextension 70202 SalesRecievablePageExt extends "Sales & Receivables Setup"
             }
 
             field("Teacher Table"; Rec."Teacher Table")
+<<<<<<< HEAD
 
 =======
 
             field("Parent No."; Rec."Parent No.")
 >>>>>>> Study
+=======
+            {
+                ApplicationArea = All;
+            }
+
+            field("Parent No."; Rec."Parent No.")
+>>>>>>> main
             {
                 ApplicationArea = All;
             }
