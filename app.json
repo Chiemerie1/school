@@ -1,18 +1,8 @@
 {
   "id": "10244113-8055-41fd-a3c7-d308ae05a25f",
   "name": "school",
-<<<<<<< HEAD
-<<<<<<< HEAD
   "publisher": "SCode",
   "version": "1.0.0.9",
-=======
-  "publisher": "Default Publisher",
-  "version": "1.0.0.3",
->>>>>>> Study
-=======
-  "publisher": "SCode",
-  "version": "1.0.0.6",
->>>>>>> main
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -27,15 +17,7 @@
   "idRanges": [
     {
       "from": 50100,
-<<<<<<< HEAD
-<<<<<<< HEAD
       "to": 90000
-=======
-      "to": 89999
->>>>>>> Study
-=======
-      "to": 90000
->>>>>>> main
     }
   ],
   "resourceExposurePolicy": {
