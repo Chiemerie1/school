@@ -11,6 +11,7 @@ tableextension 50101 SalesRecievableExt extends "Sales & Receivables Setup"
             Caption = 'Student No.';
         }
 
+
         field(80001; "Teacher No."; Code[200])
         {
             DataClassification = ToBeClassified;
